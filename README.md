@@ -1,3 +1,3 @@
-![meme](don't open.gif)
+![meme](don\'t open.gif)
 
 And i'am busy :(

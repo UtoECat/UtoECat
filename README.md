@@ -1,3 +1,2 @@
-Pure C and Lua developer.  
-
-And i'am tired :(
+Pure C, C++11-17 Luau and Lua developer.  
+ i want coffee. 🥤

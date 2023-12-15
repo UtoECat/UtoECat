@@ -45,3 +45,6 @@ I'm Very good at C99-C11, OK at C++, insanely good at Lua, very bad at python, c
 - CMake. I have bad relationships with it at this moment, but it should be good.... Hopefully...
 - Cygwin. Wine.
 - c/c++ compilers GCC, CLANG, MINGW.
+- VIM. :e review.txt\nihello, this is my vim review\ni love it.ESCyy333p:wq. 
+# linux stuff
+DE: sway, xfce, Lxde. Terminal : kitty. Distro : Manjaro, Aritx. Hate zsh and swap, love bash and zram. Hate systemd but forced to use it.

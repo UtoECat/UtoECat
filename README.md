@@ -12,7 +12,7 @@ I'm Very good at C99-C11, OK at C++, insanely good at Lua, very bad at python, c
   - SDL2. Good as SDL, but needs a lot of work to get things started. (so only used it a couple of times on a small scale)
   - Love2D. In simple terms - SDL2, but optionally simple. It's easy to start doing things, potentially scalable, but lacking api for C, C++. Love it.
 - Audio :
-  - SDL_Mixer, but it's not the best thing in the universe. 
+  - SDL_Mixer. Not the best thing in the universe. 
   - miniaudio - the best thing in the universe for what it does, change my mind.
   - Jack(Jack 2) - good. Good API for clients, good docs, good project.
   - LADSPA - simple to get started, has potencial problems as plugin API(lack of MIDI, etc.)... But... Good.
@@ -22,7 +22,7 @@ I'm Very good at C99-C11, OK at C++, insanely good at Lua, very bad at python, c
   - stb_vorbis (was not easy, but thanks god i found miniaudio)
   - stb_XXX - very likely to be good.
 - Unit testing and automatic testing
-  - Doctest [link](https://github.com/doctest/doctest). Just the best. (I tried using catch at first, and was frustrated by catch's slow compilation speed and overload.)
+  - Doctest [link](https://github.com/doctest/doctest). Just the best. (I tried using catch at first, and was frustrated by catch's slow compilation speed and bloat.)
   - Github Actions. I'am still don't really understand what i'm doing in it, but... It just works...
 - Sanitizers, checksrs
   - Adress sanitizer, Leak suitizer, UB Sanitizer - your best friends in C and C++. Can be ever better to debug your custom allocators :)

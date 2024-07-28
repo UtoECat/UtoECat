@@ -6,11 +6,12 @@
     Has only two downsides :
     - Assertions on misuse.
     - C++. Although no c++ features like inheritance/stdlibc++/templates are used, may still make it less portable.
-- Game development:
-  - Raylib. Used it very deeply. Good for prototyping and simple games, but the lack of multithreading support makes it difficult to scale in the future...
+- Game development/Cross platfrom frameworks:
   - SDL2. Good as crossplatform library to make things work, but needs a lot of work to get things started.
+  - Raylib. Used it very deeply. Good for prototyping and simple games, but the lack of multithreading support makes it difficult to scale in the future...
   - Love2D. You can think of it as SDL2, but simpler, and on Lua. (LuaJIT)
     It's easy to start doing things, potentially scalable, but lacks api for C, C++. Love it.
+  - Godot. Good engine, but it's an engine. GDScript is inda questionable, not tried using C++ yet. A lot of things are required to learn to use it properly and somewhat efficiently.
 - Audio :
   - SDL_Mixer. Not the best thing in the universe. 
   - miniaudio - the best thing in the universe for what it does.

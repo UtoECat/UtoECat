@@ -1,23 +1,26 @@
-## Tools i use
-- Debugging
-  - x86dbg. The best you can find for windows i guess.
-  - GDB. ~~I can sit and think in it for a while, read help and do simple things, but nothing more. I can't live in debugger without GUI, i'm lost person 💀~~
-    UPD: i kinda like GDB CLI more than UI now. GUI may be useful for visualisations, but CLI is the most reliable interface. it would be great if there were more tutorials for it when needed it most.
-    If you are still using GUI debuggers - you should at least try using GDB from CLI for a week. It's really good.
-- Asan, leak sanitizer, leakcheck, cppcheck, `-fanalyze`... 
-  - I wish there were UB checking out of the box in GCC/Clang, but...
-- Gnu Make. Not bad.
-- CMake. I have bad relationships with it at this moment, but it should be good.... Hopefully...
-  UPD: It's not really...
-  I changed my mind a lot about build systems really. When i worked at companies, it was usual thing to have overcomplicated and overbloated build process, which noone trully understands.
-  But with time i start appreciate minimalistic build systems more. To level of simple bash/python scripts, or Make. 
-  Although i understand that the point of CMake is to provide crossplatrofm way to build stuff... I wish Make became more adopted in windows instead, because Cmake is insane sometimes.
-- Cygwin. Wine.
-  - Cygwin is the most reliable way to get uniform expirience between windows/linux without perfomance loss of wsl s far.
-  + your binaries are portable as hell, if build correctly. I built luajit/other specific sofytware dll's multiple times on it, and it works great.
-- c/c++ compilers GCC, CLANG, MINGW.
-- VIM. :e review.txt\nihello, this is my vim review\ni love it.ESCyy333p:wq. 
-- VSCode, NVim.
-  YES, I PUT THEM TOGETHER< FIGHT ME!!1
-  the poblem with nvim, is that it essentially became vscode 2.0, but without enough level of quality. yep.
-  i think you can configure nvim better for yourself, but it takes much more time than even configuring vim.
+**Development Tools**
+
+### Debugging
+- **x86dbg**: A solid choice for Windows debugging.
+- **GDB**: Initially, I found the command-line interface challenging, but I've come to appreciate its power and reliability. While GUI debuggers can be helpful for visualizations, I recommend giving GDB's CLI a dedicated try for a week; and you will practically never need GUI debuggers again.
+
+### Static Analysis and Sanitizers
+- **AddressSanitizer (Asan)** and **LeakSanitizer**, **Cppcheck**, and **-fanalyze**: They are essential for any C/C++ developer. 
+  *I do wish that undefined behavior was detected more effectively by default though.*
+### Build Systems
+- **GNU Make**: A straightforward option that works well for many projects.
+- **CMake**: While it aims to simplify cross-platform builds, I’ve had a complicated relationship with it. My experience in various companies has shown me that overly complex build processes can be a burden. I now lean towards minimalistic solutions, such as simple bash or Python scripts, or even Makefiles. CMake can sometimes be overwhelming.
+
+### Development Environment
+- **Cygwin**: An excellent tool for achieving a consistent experience between Windows and Linux, with minimal performance overhead compared to WSL. Binaries built with Cygwin are highly portable, when compiled with `-static` `-static-libgcc`.
+- **Wine**: well enough solution for running Windows applications on Linux. Older apps supported better though.
+
+### Compilers
+- **GCC**, **Clang**, and **MinGW**: good and widespread compilers. 
+- **Tiny C**: just for fun :) compiling C code and running it directly inside an application is interesting too.
+
+### Text Editors/IDEs
+- **Vim**: My preferred text editor.
+- **Neovim**: It has potential, but I find it slower with commonly used plugin packs. As an IDE, it falls short due to community-maintained plugins/pluginpacks that often have bugs. While Iit can be configured for your specific needs, less plugins and performance, that requires a significant time investment.
+- **VSCode**: it's okay.
+- **Pycharm**: it's better suited specifically for python than "Ms extension for python" in vscode.
